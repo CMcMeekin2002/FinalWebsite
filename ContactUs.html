@@ -1,0 +1,90 @@
+<!doctype html>
+<!---  Description : Final Project for WebDesign
+       Author      : Cillian McMeekin
+       Date        : feb-april/2021
+       
+--->
+<html lang="en">
+<head>
+     <meta charset="utf-8"> <!-- 8 bit character encoding capable of encoding all possible charachters -->
+    <meta name="description" content="Sligo tourism location">
+    <meta name="keywords" content="Sligo, wild atlantic way, staycation, strandhill, rossespoint, benbulben, sligo city">
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon">
+    <title>Sligo Tourism</title>  
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <header> <!-- Branding and navagation go here -->
+                <img style="float: left; margin-right: 10px;" src="Images/logo.jpg" alt="logo" width="110" >
+
+    <h1>Sligo Tourism</h1>
+      
+     
+    </header>
+<main>
+    <nav>
+     <ul>
+                  <li><a href="index.html">Home</a> </li>
+                 <li> <a href="Locations.html">Locations</a></li>
+                  <li> <a href="Transport.html">Transport</a></li>
+                    <li id="active"> <a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+  
+    </nav>
+    <section>
+        <h2>Please fill in our form with your queries</h2>
+        <form action="http:/foo.com" method="get">
+            <label for="first_name">First Name :<span class="required"></span> </label>
+            <input type="text" name="first_name" id="firstname" autofocus required><br>
+            <label for="last_name">Last Name : <span class="required"></span></label>
+            <input type="text" name="last_name" id="lastname" required><br>
+            <label for="email">Email :<span class="required"></span></label>
+            <input type="text" name="email" id="email" required placeholder="johnsmith@example.com"><br>
+            
+            <label for="Message"> Query : </label>
+            <textarea cols="30" rows="5" id="message" name="message" placeholder="Your message must be less than 150 charachters" data-maxlength="150"></textarea> <br>
+            <input type="submit" name="submit" id="button" value="submit">
+        </form>
+    </section>
+    
+    </main>
+    <footer> <!--- Discalimer and copyright goes here -->
+        <ul>
+             <li><a href="index.html">Home</a> </li>
+                 <li> <a href="Locations.html">Locations</a></li>
+                  <li> <a href="Transport.html">Transport</a></li>
+                    <li> <a href="ContactUs.html">Contact Us</a></li>
+                
+        </ul>
+        <small>&copy; 2020 Sligo Food</small>
+    </footer>
+    
+</body>
+    
+    <style>
+      
+            
+        
+   
+        main{
+            margin: 15px 200px;
+            padding: 20px;
+            border: solid grey;
+            background: white;
+            min-height: 300px;
+        }
+       
+           
+nav ul li{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+        
+
+
+
+
+
+</html>

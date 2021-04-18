@@ -1,0 +1,151 @@
+
+header{
+    height: 200px;
+    color: navajowhite;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-image: url(../Images/backround.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+nav
+{
+    background-color: rgb(58, 66, 131);
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #9470f7;
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav 
+{
+    padding: 5px;
+}
+
+nav ul li 
+{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+nav ul li:hover
+{
+    background-color: darkgrey;
+}
+body{
+    background-color: rgb(181, 179, 247);
+    font-family: verdana;
+}
+table
+{
+    width: 100%;
+    border: 1px; solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+
+th, tr, td{
+    border: 1px solid black;
+    text-align: left;
+}
+#context{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 80%;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+aside{
+    border: 1px solid black;
+    float: right;
+    position: inherit
+    width: 15%;
+}
+footer{
+   clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding 15px;
+    text-decoration: none;
+}
+#active{
+    border: solid red;
+}
+section.transport{
+    border: 2px solid black;
+    text-align: justify;
+    margin-bottom: 5px;    
+    max-height: 350px;
+    overflow: auto;
+  
+}
+.colDetail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+.videoContent{
+    float: left;
+    width 80%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 200px;
+}
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: white;
+    border: 3px solid grey;
+}
+#button{
+    margin-left: 138px;
+}
+.required{
+    font-weight: bold;
+    color: red;
+}
+.map{
+    margin-left: 50px;
+}
